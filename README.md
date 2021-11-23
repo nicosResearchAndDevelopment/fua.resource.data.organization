@@ -1,2 +1,4 @@
-# resource.data
+# fua.lib.resource.data
+
+---
 
