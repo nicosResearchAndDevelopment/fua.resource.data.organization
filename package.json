@@ -5,6 +5,9 @@
   "exports": {
     ".": {
       "require": "./load.data.js"
+    },
+    "./context": {
+      "require": "./context/context.default.js"
     }
   },
   "devDependencies": {
