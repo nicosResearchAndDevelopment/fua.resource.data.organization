@@ -24,5 +24,8 @@ module.exports = {
     'dbr': 'http://dbpedia.org/resource/',
 
     // custom prefixes
-    'fua': 'https://www.nicos-rd.com/fua#'
+    'fua':     'https://www.nicos-rd.com/fua#',
+    'geom':    "https://www.nicos-rd.com/fua/geom#",
+    'dacl':    'https://www.nicos-rd.com/fua/dacl#',
+    'weather': "https://www.nicos-rd.com/fua/weather#"
 };
