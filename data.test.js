@@ -16,7 +16,7 @@ describe('resource.data', function () {
         expect(Object.values(res_context).every(val => typeof val === 'string')).toBeTruthy();
     });
 
-    test('should load universe with rdf-module', async function () {
+    test('should load resource with rdf-module', async function () {
         const dataFiles = await loadDataFiles(res_data);
         expect(dataFiles.length).toBeGreaterThan(0);
 
