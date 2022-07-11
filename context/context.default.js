@@ -13,6 +13,7 @@ module.exports = {
     'ldp':  'http://www.w3.org/ns/ldp#',
     'odrl': 'http://www.w3.org/ns/odrl/2/',
     'org':  'http://www.w3.org/ns/org#',
+    'prov': 'http://www.w3.org/ns/prov#',
     'skos': 'http://www.w3.org/2004/02/skos/core#',
     'time': 'http://www.w3.org/2006/time#',
     'vann': 'http://purl.org/vocab/vann/',
