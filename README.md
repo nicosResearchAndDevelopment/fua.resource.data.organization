@@ -1,4 +1,3 @@
-# fua.lib.resource.data
+# @nrd/fua.resource.data
 
 ---
-
