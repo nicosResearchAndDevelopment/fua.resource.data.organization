@@ -1,3 +1,1 @@
-# @nrd/fua.resource.data
-
----
+# @nrd/fua.resource.data.organization

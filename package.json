@@ -1,29 +1,19 @@
 {
-  "name": "@nrd/fua.resource.data.all",
+  "name": "@nrd/fua.resource.data.organization",
   "version": "1.0.0",
   "description": "",
   "exports": {
     ".": {
-      "require": "./load.data.js"
+      "require": "./src/load.js"
     },
-    "./context": {
-      "require": "./context/context.default.js"
-    },
-    "./organizations": {
-      "require": "./organizations/load.organizations.js"
-    },
-    "./organizations/nicos-ag": {
-      "require": "./organizations/nicos-ag/load.nicos-ag.js"
-    },
-    "./persons": {
-      "require": "./persons/load.persons.js"
+    "./nicos-ag": {
+      "require": "./src/load.nicos-ag.js"
     }
   },
   "devDependencies": {
     "mocha": "^8.2.1",
     "expect": "^26.6.2",
     "@nrd/fua.core.util": "^1.0.0",
-    "@nrd/fua.module.dfc": "^1.0.0",
     "@nrd/fua.module.rdf": "^1.0.0",
     "@nrd/fua.module.persistence": "^1.0.0"
   },
@@ -32,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/resource/data/all.git"
+    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/resource/data/organization.git"
   },
   "author": "spetrac@nicos-ag.com",
   "license": "UNLICENSED"
